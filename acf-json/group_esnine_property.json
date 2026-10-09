@@ -1,0 +1,279 @@
+{
+    "key": "group_esnine_property",
+    "title": "Property Details",
+    "fields": [
+        {
+            "key": "field_esnine_tab_overview",
+            "label": "Overview",
+            "name": "",
+            "type": "tab",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_tagline",
+            "label": "Card tag",
+            "name": "property_tagline",
+            "type": "text",
+            "instructions": "Short label shown on the card on the Properties page, e.g. Coastal Escapes - Where Waves Beckon",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_location",
+            "label": "Location",
+            "name": "property_location",
+            "type": "text",
+            "instructions": "Shown next to the title, e.g. Malibu, California",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_price",
+            "label": "Price",
+            "name": "property_price",
+            "type": "number",
+            "instructions": "Numbers only. Shown as $1,250,000.",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "prepend": "$"
+        },
+        {
+            "key": "field_esnine_bedrooms",
+            "label": "Bedrooms",
+            "name": "property_bedrooms",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "min": 0
+        },
+        {
+            "key": "field_esnine_bathrooms",
+            "label": "Bathrooms",
+            "name": "property_bathrooms",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "step": 0.5
+        },
+        {
+            "key": "field_esnine_area",
+            "label": "Area",
+            "name": "property_area",
+            "type": "text",
+            "instructions": "e.g. 2,500 Square Feet",
+            "required": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_build_year",
+            "label": "Build Year",
+            "name": "property_build_year",
+            "type": "number",
+            "instructions": "Used by the Build Year filter on the Properties page.",
+            "required": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "min": 1800,
+            "max": 2100
+        },
+        {
+            "key": "field_esnine_featured",
+            "label": "Featured on home page",
+            "name": "property_featured",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "ui": 1,
+            "default_value": 1,
+            "message": "Show this property in the home page carousel"
+        },
+        {
+            "key": "field_esnine_tab_gallery",
+            "label": "Gallery",
+            "name": "",
+            "type": "tab",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_gallery",
+            "label": "Photos",
+            "name": "property_gallery",
+            "type": "photo_gallery",
+            "instructions": "Add as many photos as you like and drag to reorder. The featured image is always shown first.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "fields[property_gallery]": {
+                "edit_modal": "Default",
+                "images_limit": "",
+                "remove_edit_button": "Yes"
+            }
+        },
+        {
+            "key": "field_esnine_tab_features",
+            "label": "Features",
+            "name": "",
+            "type": "tab",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_features",
+            "label": "Key Features and Amenities",
+            "name": "property_features",
+            "type": "textarea",
+            "instructions": "One feature per line.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 8,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_tab_pricing",
+            "label": "Pricing",
+            "name": "",
+            "type": "tab",
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_additional_fees",
+            "label": "Additional Fees",
+            "name": "property_additional_fees",
+            "type": "textarea",
+            "instructions": "One item per line, written as: Label | Value | Note. The note is optional. Example: Legal Fees | $3,000 | Approximate cost for legal services",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 6,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_monthly_costs",
+            "label": "Monthly Costs",
+            "name": "property_monthly_costs",
+            "type": "textarea",
+            "instructions": "One item per line, written as: Label | Value | Note. The note is optional. Example: Legal Fees | $3,000 | Approximate cost for legal services",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_initial_costs",
+            "label": "Total Initial Costs",
+            "name": "property_initial_costs",
+            "type": "textarea",
+            "instructions": "One item per line, written as: Label | Value | Note. The note is optional. Example: Legal Fees | $3,000 | Approximate cost for legal services",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 5,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_monthly_expenses",
+            "label": "Monthly Expenses",
+            "name": "property_monthly_expenses",
+            "type": "textarea",
+            "instructions": "One item per line, written as: Label | Value | Note. The note is optional. Example: Legal Fees | $3,000 | Approximate cost for legal services",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 5,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_pricing_note",
+            "label": "Pricing note",
+            "name": "property_pricing_note",
+            "type": "textarea",
+            "instructions": "Disclaimer shown above the pricing cards. Leave empty to use the default.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "property"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "modified": 1791540081
+}

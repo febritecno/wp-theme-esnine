@@ -1,0 +1,67 @@
+{
+    "key": "group_esnine_testimonial",
+    "title": "Testimonial Details",
+    "fields": [
+        {
+            "key": "field_esnine_t_author",
+            "label": "Client name",
+            "name": "testimonial_author",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_t_location",
+            "label": "Location",
+            "name": "testimonial_location",
+            "type": "text",
+            "instructions": "e.g. USA, California",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_t_rating",
+            "label": "Rating",
+            "name": "testimonial_rating",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "min": 1,
+            "max": 5,
+            "default_value": 5
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "testimonial"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "modified": 1791536400
+}

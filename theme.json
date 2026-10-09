@@ -1,0 +1,200 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "900px",
+			"wideSize": "1596px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"slug": "white",
+					"name": "White",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "black",
+					"name": "Black",
+					"color": "#000000"
+				},
+				{
+					"slug": "purple-60",
+					"name": "Purple 60",
+					"color": "#703bf7"
+				},
+				{
+					"slug": "purple-65",
+					"name": "Purple 65",
+					"color": "#8254f8"
+				},
+				{
+					"slug": "purple-70",
+					"name": "Purple 70",
+					"color": "#946cf9"
+				},
+				{
+					"slug": "purple-75",
+					"name": "Purple 75",
+					"color": "#a685fa"
+				},
+				{
+					"slug": "purple-90",
+					"name": "Purple 90",
+					"color": "#dbcefd"
+				},
+				{
+					"slug": "purple-95",
+					"name": "Purple 95",
+					"color": "#ede7fe"
+				},
+				{
+					"slug": "purple-97",
+					"name": "Purple 97",
+					"color": "#f4f0fe"
+				},
+				{
+					"slug": "purple-99",
+					"name": "Purple 99",
+					"color": "#fbfaff"
+				},
+				{
+					"slug": "white-90",
+					"name": "White 90",
+					"color": "#e4e4e7"
+				},
+				{
+					"slug": "white-95",
+					"name": "White 95",
+					"color": "#f1f1f3"
+				},
+				{
+					"slug": "white-97",
+					"name": "White 97",
+					"color": "#f7f7f8"
+				},
+				{
+					"slug": "white-99",
+					"name": "White 99",
+					"color": "#fcfcfd"
+				},
+				{
+					"slug": "grey-08",
+					"name": "Grey 08",
+					"color": "#141414"
+				},
+				{
+					"slug": "grey-10",
+					"name": "Grey 10",
+					"color": "#1a1a1a"
+				},
+				{
+					"slug": "grey-15",
+					"name": "Grey 15",
+					"color": "#262626"
+				},
+				{
+					"slug": "grey-20",
+					"name": "Grey 20",
+					"color": "#333333"
+				},
+				{
+					"slug": "grey-30",
+					"name": "Grey 30",
+					"color": "#4d4d4d"
+				},
+				{
+					"slug": "grey-40",
+					"name": "Grey 40",
+					"color": "#666666"
+				},
+				{
+					"slug": "grey-50",
+					"name": "Grey 50",
+					"color": "#808080"
+				},
+				{
+					"slug": "grey-60",
+					"name": "Grey 60",
+					"color": "#999999"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "urbanist",
+					"name": "Urbanist",
+					"fontFamily": "Urbanist, system-ui, sans-serif"
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "small",
+					"name": "Small",
+					"size": "14px"
+				},
+				{
+					"slug": "medium",
+					"name": "Medium",
+					"size": "18px"
+				},
+				{
+					"slug": "large",
+					"name": "Large",
+					"size": "24px"
+				},
+				{
+					"slug": "x-large",
+					"name": "Extra Large",
+					"size": "48px"
+				},
+				{
+					"slug": "xx-large",
+					"name": "Huge",
+					"size": "60px"
+				}
+			]
+		},
+		"spacing": {
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"%",
+				"vw",
+				"vh"
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--grey-08)",
+			"text": "var(--wp--preset--color--white)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--urbanist)",
+			"fontWeight": "500",
+			"lineHeight": "1.5"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--purple-60)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"border": {
+					"radius": "10px"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontWeight": "600"
+				}
+			}
+		}
+	}
+}

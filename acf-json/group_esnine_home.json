@@ -1,0 +1,576 @@
+{
+    "key": "group_esnine_home",
+    "title": "Home Page",
+    "fields": [
+        {
+            "key": "field_esnine_tab_hero",
+            "label": "Hero",
+            "name": "",
+            "type": "tab",
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_hero_title",
+            "label": "Title",
+            "name": "hero_title",
+            "type": "textarea",
+            "instructions": "Press Enter where the title should break onto a new line (desktop and tablet).",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 2,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_hero_lead",
+            "label": "Text",
+            "name": "hero_lead",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_hero_image",
+            "label": "Image",
+            "name": "hero_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp"
+        },
+        {
+            "key": "field_esnine_hero_badge_text",
+            "label": "Round badge text",
+            "name": "hero_badge_text",
+            "type": "text",
+            "instructions": "Text running around the circular badge.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_hero_secondary_label",
+            "label": "Outline button label",
+            "name": "hero_secondary_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_hero_secondary_url",
+            "label": "Outline button link",
+            "name": "hero_secondary_url",
+            "type": "text",
+            "instructions": "Full URL or an anchor on the home page such as #properties.",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_hero_primary_label",
+            "label": "Purple button label",
+            "name": "hero_primary_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_hero_primary_url",
+            "label": "Purple button link",
+            "name": "hero_primary_url",
+            "type": "text",
+            "instructions": "Leave empty to link to the Properties page.",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_tab_stats",
+            "label": "Stats",
+            "name": "",
+            "type": "tab",
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_stat_1_value",
+            "label": "Stat 1 value",
+            "name": "stat_1_value",
+            "type": "text",
+            "instructions": "e.g. 200+",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_stat_1_label",
+            "label": "Stat 1 label",
+            "name": "stat_1_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_stat_2_value",
+            "label": "Stat 2 value",
+            "name": "stat_2_value",
+            "type": "text",
+            "instructions": "e.g. 200+",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_stat_2_label",
+            "label": "Stat 2 label",
+            "name": "stat_2_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_stat_3_value",
+            "label": "Stat 3 value",
+            "name": "stat_3_value",
+            "type": "text",
+            "instructions": "e.g. 200+",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_stat_3_label",
+            "label": "Stat 3 label",
+            "name": "stat_3_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_tab_services",
+            "label": "Service cards",
+            "name": "",
+            "type": "tab",
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_feature_1_icon",
+            "label": "Card 1 icon",
+            "name": "feature_1_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "icon-home.svg": "Home",
+                "icon-value.svg": "Value",
+                "icon-management.svg": "Management",
+                "icon-invest.svg": "Investment",
+                "icon-building.svg": "Building",
+                "icon-location.svg": "Location",
+                "icon-bolt.svg": "Bolt"
+            },
+            "allow_null": 1,
+            "return_format": "value",
+            "ui": 0
+        },
+        {
+            "key": "field_esnine_feature_1_label",
+            "label": "Card 1 label",
+            "name": "feature_1_label",
+            "type": "text",
+            "instructions": "Leave empty to hide this card.",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_1_url",
+            "label": "Card 1 link",
+            "name": "feature_1_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_2_icon",
+            "label": "Card 2 icon",
+            "name": "feature_2_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "icon-home.svg": "Home",
+                "icon-value.svg": "Value",
+                "icon-management.svg": "Management",
+                "icon-invest.svg": "Investment",
+                "icon-building.svg": "Building",
+                "icon-location.svg": "Location",
+                "icon-bolt.svg": "Bolt"
+            },
+            "allow_null": 1,
+            "return_format": "value",
+            "ui": 0
+        },
+        {
+            "key": "field_esnine_feature_2_label",
+            "label": "Card 2 label",
+            "name": "feature_2_label",
+            "type": "text",
+            "instructions": "Leave empty to hide this card.",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_2_url",
+            "label": "Card 2 link",
+            "name": "feature_2_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_3_icon",
+            "label": "Card 3 icon",
+            "name": "feature_3_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "icon-home.svg": "Home",
+                "icon-value.svg": "Value",
+                "icon-management.svg": "Management",
+                "icon-invest.svg": "Investment",
+                "icon-building.svg": "Building",
+                "icon-location.svg": "Location",
+                "icon-bolt.svg": "Bolt"
+            },
+            "allow_null": 1,
+            "return_format": "value",
+            "ui": 0
+        },
+        {
+            "key": "field_esnine_feature_3_label",
+            "label": "Card 3 label",
+            "name": "feature_3_label",
+            "type": "text",
+            "instructions": "Leave empty to hide this card.",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_3_url",
+            "label": "Card 3 link",
+            "name": "feature_3_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_4_icon",
+            "label": "Card 4 icon",
+            "name": "feature_4_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "icon-home.svg": "Home",
+                "icon-value.svg": "Value",
+                "icon-management.svg": "Management",
+                "icon-invest.svg": "Investment",
+                "icon-building.svg": "Building",
+                "icon-location.svg": "Location",
+                "icon-bolt.svg": "Bolt"
+            },
+            "allow_null": 1,
+            "return_format": "value",
+            "ui": 0
+        },
+        {
+            "key": "field_esnine_feature_4_label",
+            "label": "Card 4 label",
+            "name": "feature_4_label",
+            "type": "text",
+            "instructions": "Leave empty to hide this card.",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_feature_4_url",
+            "label": "Card 4 link",
+            "name": "feature_4_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_tab_sections",
+            "label": "Section headings",
+            "name": "",
+            "type": "tab",
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_esnine_properties_title",
+            "label": "Properties title",
+            "name": "properties_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_properties_text",
+            "label": "Properties text",
+            "name": "properties_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_properties_button",
+            "label": "Properties button label",
+            "name": "properties_button",
+            "type": "text",
+            "instructions": "Leave empty to hide the button.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_testimonials_title",
+            "label": "Testimonials title",
+            "name": "testimonials_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_testimonials_text",
+            "label": "Testimonials text",
+            "name": "testimonials_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_testimonials_button",
+            "label": "Testimonials button label",
+            "name": "testimonials_button",
+            "type": "text",
+            "instructions": "Leave empty to hide the button.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_faq_title",
+            "label": "FAQ title",
+            "name": "faq_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_esnine_faq_text",
+            "label": "FAQ text",
+            "name": "faq_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_esnine_faq_button",
+            "label": "FAQ button label",
+            "name": "faq_button",
+            "type": "text",
+            "instructions": "Leave empty to hide the button.",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "modified": 1791542382
+}
