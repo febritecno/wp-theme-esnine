@@ -23,7 +23,8 @@
                 "id": ""
             },
             "rows": 2,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Discover Your Dream\nProperty with Estatein"
         },
         {
             "key": "field_esnine_hero_lead",
@@ -38,7 +39,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams."
         },
         {
             "key": "field_esnine_hero_image",
@@ -68,7 +70,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "✨Discover Your Dream Property"
         },
         {
             "key": "field_esnine_hero_secondary_label",
@@ -81,7 +84,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Learn More"
         },
         {
             "key": "field_esnine_hero_secondary_url",
@@ -94,7 +98,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "#testimonials"
         },
         {
             "key": "field_esnine_hero_primary_label",
@@ -107,7 +112,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Browse Properties"
         },
         {
             "key": "field_esnine_hero_primary_url",
@@ -141,7 +147,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "200+"
         },
         {
             "key": "field_esnine_stat_1_label",
@@ -154,7 +161,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Happy Customers"
         },
         {
             "key": "field_esnine_stat_2_value",
@@ -167,7 +175,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "10k+"
         },
         {
             "key": "field_esnine_stat_2_label",
@@ -180,7 +189,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Properties For Clients"
         },
         {
             "key": "field_esnine_stat_3_value",
@@ -193,7 +203,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "16+"
         },
         {
             "key": "field_esnine_stat_3_label",
@@ -206,7 +217,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Years of Experience"
         },
         {
             "key": "field_esnine_tab_services",
@@ -239,7 +251,8 @@
             },
             "allow_null": 1,
             "return_format": "value",
-            "ui": 0
+            "ui": 0,
+            "default_value": "icon-home.svg"
         },
         {
             "key": "field_esnine_feature_1_label",
@@ -252,7 +265,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Find Your Dream Home"
         },
         {
             "key": "field_esnine_feature_1_url",
@@ -290,7 +304,8 @@
             },
             "allow_null": 1,
             "return_format": "value",
-            "ui": 0
+            "ui": 0,
+            "default_value": "icon-value.svg"
         },
         {
             "key": "field_esnine_feature_2_label",
@@ -303,7 +318,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Unlock Property Value"
         },
         {
             "key": "field_esnine_feature_2_url",
@@ -316,7 +332,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "#properties"
         },
         {
             "key": "field_esnine_feature_3_icon",
@@ -341,7 +358,8 @@
             },
             "allow_null": 1,
             "return_format": "value",
-            "ui": 0
+            "ui": 0,
+            "default_value": "icon-management.svg"
         },
         {
             "key": "field_esnine_feature_3_label",
@@ -354,7 +372,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Effortless Property Management"
         },
         {
             "key": "field_esnine_feature_3_url",
@@ -367,7 +386,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "#faq"
         },
         {
             "key": "field_esnine_feature_4_icon",
@@ -392,7 +412,8 @@
             },
             "allow_null": 1,
             "return_format": "value",
-            "ui": 0
+            "ui": 0,
+            "default_value": "icon-invest.svg"
         },
         {
             "key": "field_esnine_feature_4_label",
@@ -405,7 +426,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Smart Investments, Informed Decisions"
         },
         {
             "key": "field_esnine_feature_4_url",
@@ -418,7 +440,8 @@
                 "width": "40",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "#testimonials"
         },
         {
             "key": "field_esnine_tab_sections",
@@ -439,7 +462,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Featured Properties"
         },
         {
             "key": "field_esnine_properties_text",
@@ -454,7 +478,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click \"View Details\" for more information."
         },
         {
             "key": "field_esnine_properties_button",
@@ -467,7 +492,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "View All Properties"
         },
         {
             "key": "field_esnine_testimonials_title",
@@ -480,7 +506,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "What Our Clients Say"
         },
         {
             "key": "field_esnine_testimonials_text",
@@ -495,7 +522,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs."
         },
         {
             "key": "field_esnine_testimonials_button",
@@ -508,7 +536,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "View All Testimonials"
         },
         {
             "key": "field_esnine_faq_title",
@@ -521,7 +550,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Frequently Asked Questions"
         },
         {
             "key": "field_esnine_faq_text",
@@ -536,7 +566,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
         },
         {
             "key": "field_esnine_faq_button",
@@ -549,7 +580,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "View All FAQ’s"
         }
     ],
     "location": [
@@ -572,5 +604,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 1,
-    "modified": 1791542382
+    "modified": 1791543793
 }

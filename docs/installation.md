@@ -29,7 +29,7 @@ Copy the `esnine` folder into `wp-content/themes/`, or zip the folder and upload
 
 Activate it under Appearance > Themes. On activation the theme registers its post types and refreshes the permalink rules. You will see four new items in the admin menu: Properties, Testimonials, FAQs and Inquiries.
 
-The ACF field groups ship in the theme's `acf-json` folder and load on their own. There is nothing to import.
+The ACF field groups ship in the theme's `acf-json` folder and load on their own. There is nothing to import. Syncing them under ACF > Field Groups > Sync available is only needed if you want to change the fields themselves. The README explains this.
 
 ## 3. Set the permalinks
 
@@ -68,7 +68,9 @@ Site-wide Content group:
 | Properties page | Headings and text of the listing page and its request form |
 | Property detail | Inquiry and pricing headings. `{property}` is replaced by the property name |
 
-Empty fields are skipped on the site. Nothing shows a placeholder.
+The text fields arrive filled with starter text, which comes from the default values in the theme's `acf-json` files. Change what you like, choose a hero image, fill in the links, then press Update. The site shows nothing from these fields until the page has been saved once.
+
+A field you empty is skipped on the site.
 
 ## 6. Create the menus
 

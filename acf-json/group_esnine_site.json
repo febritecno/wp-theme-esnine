@@ -21,7 +21,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "✨Discover Your Dream Property with Estatein"
         },
         {
             "key": "field_esnine_banner_link_text",
@@ -34,7 +35,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Learn More"
         },
         {
             "key": "field_esnine_banner_url",
@@ -68,7 +70,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Start Your Real Estate Journey Today"
         },
         {
             "key": "field_esnine_cta_text",
@@ -83,7 +86,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance."
         },
         {
             "key": "field_esnine_cta_button",
@@ -96,7 +100,8 @@
                 "width": "50",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Explore Properties"
         },
         {
             "key": "field_esnine_cta_url",
@@ -130,7 +135,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "@2023 Estatein. All Rights Reserved."
         },
         {
             "key": "field_esnine_subscribe_placeholder",
@@ -143,7 +149,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Enter Your Email"
         },
         {
             "key": "field_esnine_facebook_url",
@@ -216,7 +223,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Find Your Dream Property"
         },
         {
             "key": "field_esnine_archive_text",
@@ -231,7 +239,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey"
         },
         {
             "key": "field_esnine_results_title",
@@ -244,7 +253,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Discover a World of Possibilities"
         },
         {
             "key": "field_esnine_results_text",
@@ -259,7 +269,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your vision of home"
         },
         {
             "key": "field_esnine_match_title",
@@ -272,7 +283,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Let's Make it Happen"
         },
         {
             "key": "field_esnine_match_text",
@@ -287,7 +299,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together."
         },
         {
             "key": "field_esnine_tab_detail",
@@ -308,7 +321,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Inquire About {property}"
         },
         {
             "key": "field_esnine_inquiry_text",
@@ -323,7 +337,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "Interested in this property? Fill out the form below, and our real estate experts will get back to you with more details, including scheduling a viewing and answering any questions you may have."
         },
         {
             "key": "field_esnine_pricing_title",
@@ -336,7 +351,8 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            }
+            },
+            "default_value": "Comprehensive Pricing Details"
         },
         {
             "key": "field_esnine_pricing_text",
@@ -351,7 +367,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for {property} to help you make an informed decision"
         },
         {
             "key": "field_esnine_site_pricing_note",
@@ -366,7 +383,8 @@
                 "id": ""
             },
             "rows": 3,
-            "new_lines": ""
+            "new_lines": "",
+            "default_value": "The figures provided above are estimates and may vary depending on the property, location, and individual circumstances."
         }
     ],
     "location": [
@@ -387,5 +405,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 1,
-    "modified": 1791540081
+    "modified": 1791543793
 }
